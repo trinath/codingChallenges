@@ -54,6 +54,9 @@ public:
               rowblock[arow] = true;
               colblock[acol] = true;
             }
+         } else {
+           rowblock[arow] = true;
+           colblock[acol] = true;
          }
        }
 

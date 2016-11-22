@@ -11,7 +11,7 @@ public:
      if(guessed == actual) return questions;
      if(!guessed) return (questions - actual);
      if(!actual) return (questions - guessed);
-     return abs(guessed-actual) + abs(actual - guessed);
+     return min(guessed,actual) + min(questions - actual, questions - guessed);
    }
 };
 
