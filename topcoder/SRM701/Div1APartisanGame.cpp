@@ -33,6 +33,7 @@ public:
                         bob[i] |= !alice[i - b[j]];
                 }
             }
+            //cout << alice[i] << " " << bob[i] << endl;
         }
         return (alice[n]) ? "Alice" : "Bob";
     }
