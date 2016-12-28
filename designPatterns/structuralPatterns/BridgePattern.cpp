@@ -1,12 +1,11 @@
 /*
-Source: https://en.wikibooks.org/wiki/C%2B%2B_Programming/Code/Design_Patterns
+@Author @Source: https://en.wikibooks.org/wiki/C%2B%2B_Programming/Code/Design_Patterns
 
 Structural Patterns are design patterns that deal with the object creation mechanisms,
 trying to create objects in a manner suitable to the situation.
 
-Problem:
-The Singleton pattern ensures that a class has only one instance and provides a global
-point of access to that instance.
+Usage:
+The Bridge Pattern is used to separate out the interface from its implementation. 
 */
 
 #include <iostream>

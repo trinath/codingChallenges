@@ -1,5 +1,5 @@
 /*
-Source: https://en.wikibooks.org/wiki/C%2B%2B_Programming/Code/Design_Patterns
+@Author @Source: https://en.wikibooks.org/wiki/C%2B%2B_Programming/Code/Design_Patterns
 
 Problem:
 Convert the interface of a class into another interface that clients expect.
