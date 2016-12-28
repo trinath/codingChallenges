@@ -1,5 +1,5 @@
 /*
-Source: https://en.wikibooks.org/wiki/C%2B%2B_Programming/Code/Design_Patterns
+@Author @Source: https://en.wikibooks.org/wiki/C%2B%2B_Programming/Code/Design_Patterns
 
 Creational Patterns are design patterns that deal with the object creation mechanisms,
 trying to create objects in a manner suitable to the situation.
