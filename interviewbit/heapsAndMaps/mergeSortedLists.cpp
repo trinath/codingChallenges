@@ -1,3 +1,4 @@
+// author @trinath; src: interviewbit
 #include<iostream>
 #include<algorithm>
 #include<vector>
