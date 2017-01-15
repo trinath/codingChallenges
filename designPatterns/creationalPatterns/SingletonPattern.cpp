@@ -13,6 +13,7 @@ point of access to that instance.
 #include <unordered_map>
 #include <string>
 #include <memory>
+#include <mutex>
 using namespace std;
 
 
@@ -31,6 +32,7 @@ public:
 
     static StringSingleton &Instance()
     {
+        lock_guard<mutex> lock(mMutex);
         static StringSingleton *instance = new StringSingleton;
         return *instance; 
     }
@@ -42,4 +44,16 @@ private:
     ~StringSingleton(){}
 private:
     std::string mString;
+    static mutex mMutex;
 };
+
+mutex StringSingleton::mMutex;
+
+int main(){
+    StringSingleton &ss = StringSingleton::Instance();
+    string input;
+    cin >> input;
+    ss.SetString(input);
+    cout << ss.GetString() << endl;
+    return 0;
+}
