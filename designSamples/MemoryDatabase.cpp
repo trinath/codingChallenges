@@ -1,11 +1,8 @@
+// author trinath.
+// Implementation of In-Memory Database of a relation having five fields. AVL Tree is used for indexing every field.
 #include<iostream>
 #include<cstdio>
-// 10:04 start time 10:16
-// 10:23 start time 10:45
-// 11:26 start time 1:00
-// 9:56 pm to 1:26 
 using namespace std;
-
 
 // helper functions
 
