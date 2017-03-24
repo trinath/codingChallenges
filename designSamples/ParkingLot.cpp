@@ -1,3 +1,5 @@
+// author: trinath 
+// Designing a parking lot having 3 types of parking spaces. a) Handicapped b) Regular and c) Compact
 #include<iostream>
 #include<algorithm>
 #include<climits>
@@ -15,11 +17,6 @@ class Observer{
         virtual void update(int count) = 0;
 };
 
-class ParkingSpace;
-class HandicappedParkingSpace;
-class RegularParkingSpace;
-class HandicappedParkingSpace;
-class ParkingLotSign;
 class Subject{
     private:
         vector<Observer*> observerList;
