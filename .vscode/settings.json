@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "hashtable": "cpp",
+        "set": "cpp",
+        "iostream": "cpp",
+        "string": "cpp",
+        "ostream": "cpp",
+        "algorithm": "cpp"
+    }
+}
